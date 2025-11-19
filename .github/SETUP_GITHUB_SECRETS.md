@@ -41,20 +41,20 @@ For each secret, you'll:
 Open your local `.env` file and copy the values:
 
 ```env
-VITE_FIREBASE_API_KEY=AIzaSyD6KQotBdYinNRrW0vRamvQgT1JqVn90Lc
-VITE_FIREBASE_AUTH_DOMAIN=msynq-f81a4.firebaseapp.com
-VITE_FIREBASE_DATABASE_URL=https://msynq-f81a4-default-rtdb.firebaseio.com
-VITE_FIREBASE_PROJECT_ID=msynq-f81a4
-VITE_FIREBASE_STORAGE_BUCKET=msynq-f81a4.firebasestorage.app
-VITE_FIREBASE_MESSAGING_SENDER_ID=805930453790
-VITE_FIREBASE_APP_ID=1:805930453790:web:ddd9b4b89139dd7747570f
-VITE_FIREBASE_MEASUREMENT_ID=G-MR4CBWMLJS
+VITE_FIREBASE_API_KEY=your_actual_api_key_here
+VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+VITE_FIREBASE_DATABASE_URL=https://your_project-default-rtdb.firebaseio.com
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_project.firebasestorage.app
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+VITE_FIREBASE_MEASUREMENT_ID=your_measurement_id
 ```
 
 ### Example: Adding the First Secret
 
 **Name:** `VITE_FIREBASE_API_KEY`
-**Value:** `AIzaSyD6KQotBdYinNRrW0vRamvQgT1JqVn90Lc`
+**Value:** `your_actual_api_key_from_env_file`
 
 Repeat for all 8 secrets.
 
