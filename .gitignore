@@ -39,3 +39,7 @@ ui-debug.log
 
 # OS
 Thumbs.db
+
+# Internal documentation (not for public repo)
+FIX_DEPLOYMENT_ISSUE.md
+GITHUB_PUSH_INSTRUCTIONS.md
